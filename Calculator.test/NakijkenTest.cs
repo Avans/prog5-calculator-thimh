@@ -69,14 +69,13 @@ namespace Calculator.test
         public void Leeftijd_is_correct()
         {
             //1. Arrange
-            
             DateTime dateOfBirth = new DateTime(1990, 03, 15);
 
             //2. Act
             int age = calculator.CalculateAge(dateOfBirth);
 
             //3. Assert
-            Assert.AreEqual(25, age);
+            Assert.AreEqual(26, age);
         }
     }
 }
